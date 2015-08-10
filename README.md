@@ -1,4 +1,4 @@
-# Wp-database
+# WP-database
 # Learning the WordPress database
 
 Full database description documentation: https://codex.wordpress.org/Database_Description
