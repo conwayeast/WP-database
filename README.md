@@ -19,7 +19,7 @@ All these tables are important, of course, but if you need to fix or change some
 
 ## Mass edit posts
 
-Maybe you've got a new domain and want to change the source for all images you've used over the years, from olddomain.com/wp-content/image.jpg to newdomain.com/wp-content/image.jpg. You can run a SQL query to search for all these elemns and replace them with the new ones. It could be something like this:
+Maybe you've got a new domain and want to change the source for all images you've used over the years, from olddomain.com/wp-content/image.jpg to newdomain.com/wp-content/image.jpg. You can run a SQL query to search for all these elements and replace them with the new ones. It could be something like this:
 
     UPDATE wp_posts SET post_content = REPLACE (
     post_content,
