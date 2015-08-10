@@ -16,4 +16,4 @@ Full database description documentation: https://codex.wordpress.org/Database_De
 * wp_usermeta: User metadata
 * wp_users: The actual users
 
-All these tables are important, of course, but if you need to fix or change something directly in the database, chances are that it is in wp_options(for blog settings, like URLs and such), wp_posts (for mass editing of your blog posts), or wp_users (for password resets and such).
+All these tables are important, of course, but if you need to fix or change something directly in the database, chances are that it is in wp_options (for blog settings, like URLs and such), wp_posts (for mass editing of your blog posts), or wp_users (for password resets and such).
